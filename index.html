@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kofchik - Био</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Анимированная навигационная панель -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Kofchik</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-tab="bio">Био</a>
+                <a href="#" class="nav-link" data-tab="builds">Сборки</a>
+                <a href="#" class="nav-link" data-tab="tweakx">TweakX</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <!-- Секция с приветствием -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1 class="hero-title">Привет, я <span class="highlight">Kofchik</span></h1>
+                    <p class="hero-subtitle">Программист, разработчик и энтузиаст технологий</p>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar-container">
+                        <div class="avatar"></div>
+                        <div class="avatar-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контейнер для контента вкладок -->
+        <div class="content-container">
+            <!-- Содержимое вкладки "Био" (по умолчанию активна) -->
+            <div id="bio-content" class="tab-content active">
+                <section class="bio-section">
+                    <h2 class="section-title">Моя биография</h2>
+                    
+                    <!-- В файле index.html найдите этот блок (вторая карточка био) -->
+<!-- В файле index.html найдите второй блок био и обновите текст -->
+<div class="bio-card">
+    <div class="bio-icon">
+        <i class="fas fa-code"></i>
+    </div>
+    <div class="bio-text">
+        <h3>Профессиональная деятельность</h3>
+        <p>Я программист на <strong>C#</strong>. Разрабатываю программу <strong>TweakX</strong> для тонкой настройки операционных систем. Также являюсь автором YouTube-канала "<a href="https://youtube.com/@kofchikpc" class="social-text-link" target="_blank" rel="noopener noreferrer">Kofchik</a>" и Telegram-канала "<a href="https://t.me/kofchikpc" class="social-text-link" target="_blank" rel="noopener noreferrer">@kofchikpc</a>". Есть также Discord для общения и помощи по проектам.</p>
+    </div>
+</div>
+                    
+                    <div class="bio-card">
+                        <div class="bio-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="bio-text">
+                            <h3>Профессиональная деятельность</h3>
+                            <p>Я программист на <strong>C#</strong>. Разрабатываю программу <strong>TweakX</strong> для тонкой настройки операционных систем. Также являюсь автором YouTube-канала "<strong>Kofchik</strong>" и Telegram-канала "<strong>Наша федерация 🥀</strong>".</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bio-card">
+                        <div class="bio-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="bio-text">
+                            <h3>Увлечения и интересы</h3>
+                            <p>Обожаю ковыряться в операционных системах и ПК. Жизнь без компьютера не представляю! Из игр предпочитаю <strong>Counter Strike 1.6</strong> и <strong>SCP: Containment Breach Multiplayer</strong>, хотя играю нечасто.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bio-card">
+                        <div class="bio-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="bio-text">
+                            <h3>Планы на будущее</h3>
+                            <p>Продолжаю развиваться как программист, улучшаю свои проекты и стремлюсь делиться знаниями с другими. Всегда открыт к интересным предложениям и коллаборациям!</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Содержимое вкладки "Сборки" -->
+            <div id="builds-content" class="tab-content">
+                <section class="construction-section">
+                    <div class="construction-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h2>Упс.. похоже это в разработке!</h2>
+                    <p>Раздел "Сборки" скоро будет доступен. Я работаю над созданием полезных сборок операционных систем и программ.</p>
+                    <p>Попробуй в следующий раз!</p>
+                    <a href="#" class="back-button" data-tab="bio">Вернуться в Био</a>
+                </section>
+            </div>
+
+            <!-- Содержимое вкладки "TweakX" -->
+            <div id="tweakx-content" class="tab-content">
+                <section class="construction-section">
+                    <div class="construction-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h2>Упс.. похоже это в разработке!</h2>
+                    <p>Раздел "TweakX" находится в активной разработке. Здесь будет информация о моей программе для тонкой настройки системы.</p>
+                    <p>Попробуй в следующий раз!</p>
+                    <a href="#" class="back-button" data-tab="bio">Вернуться в Био</a>
+                </section>
+            </div>
+        </div>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- В файле index.html найдите этот блок в футере -->
+<!-- В файле index.html найдите блок с классом social-links -->
+<div class="social-links">
+    <a href="https://youtube.com/@kofchikpc" class="social-link" title="YouTube" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://t.me/kofchikpc" class="social-link" title="Telegram" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-telegram"></i>
+    </a>
+    <a href="https://discord.com/users/1325734609765269579" class="social-link" title="Discord" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-discord"></i>
+    </a>
+</div>
+                <p class="copyright">© 2026 Kofchik. Все права защищены.</p>
+                <p class="footer-note">Сделано с <i class="fas fa-heart"></i> и множеством строк кода</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
